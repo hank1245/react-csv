@@ -17,9 +17,7 @@ function App() {
   const [data, setData] = useState();
   useEffect(() => {
     const getData = async () => {
-      const response = await axios.get(
-        "https://cs-tool-api.seedn.info/table/slaveDevice?page=1&limit=10"
-      );
+      const response = await axios.get("https://request_url");
       setData([...response.data.result]);
     };
     getData();
