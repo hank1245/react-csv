@@ -1,4 +1,5 @@
-.btn {
-  margin: 200px;
-  padding: 20px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
